@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - prints to the standard error
+ *main - prints to the standard error
  *
- * Return: 1
+ *Return: 1
  */
 int main(void)
 {
