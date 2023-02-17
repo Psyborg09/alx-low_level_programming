@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
  *main - prints to the standard error
- *
  *Return: 1
  */
 int main(void)
