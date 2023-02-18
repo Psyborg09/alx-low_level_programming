@@ -1,9 +1,9 @@
-#include <studio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
 /**
- * main - Entry
+ * main - checks last digit
  *
  * Return: ALways 0
  */
