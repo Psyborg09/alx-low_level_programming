@@ -3,14 +3,16 @@
 /**
  * main - print alphabet in lowercase
  *
- * Return: zero
+ * Return: Always 0
  */
 int main(void)
 {
-	char ch = 'a';
+	char ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
+	{
 		putchar(ch);
-		putchar('\n');
+	}
+	putchar('\n');
 	return (0);
 }
