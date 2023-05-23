@@ -2,17 +2,18 @@
 #include "main.h"
 
 /**
- * main - prints the alphabet in lowercase, followed by a new line.
+ * print_alphabet - Entry point
  *
- *Return - Always 0.
+ * Return - Always 0.
  */
 
 void print_alphabet(void)
 {
 	int ch;
-	for(ch='a';ch<='z';ch++)
+
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		_putchar(ch);
+		_putchar (ch);
 	}
-	_putchar('\n');
+	_putchar ('\n');
 }
