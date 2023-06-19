@@ -24,7 +24,7 @@ void puts_half(char *str)
 	}
 	else
 	{
-		c = (length - 1) / 2;
+		c = (length + 1) / 2;
 	}
 	printf("%s\n", str + c);
 }
